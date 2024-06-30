@@ -10,6 +10,18 @@
     <Filter Include="src">
       <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\00009901000301-Code_Cocos2dx_Sample">
+      <UniqueIdentifier>{d97adeec-693e-429c-893e-0b529f4c9068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\00009901000301-Code_Cocos2dx_Sample\Global">
+      <UniqueIdentifier>{3757c5ff-a4f5-404a-8415-6ffbaeab1b1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\00009901000301-Code_Cocos2dx_Sample\Global\Define">
+      <UniqueIdentifier>{56683f49-2569-420c-ac9c-c72d755439e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\00009901000301-Code_Cocos2dx_Sample\Scene_Sample">
+      <UniqueIdentifier>{0eab0d1d-ddb3-4d90-aebe-7653c9ffb1c0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -18,8 +30,8 @@
     <ClCompile Include="..\Classes\AppDelegate.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
-      <Filter>src</Filter>
+    <ClCompile Include="..\Classes\00009901000301-Code_Cocos2dx_Sample\Scene_Sample\CManager_SampleScene.cpp">
+      <Filter>src\00009901000301-Code_Cocos2dx_Sample\Scene_Sample</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -29,8 +41,11 @@
     <ClInclude Include="..\Classes\AppDelegate.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\HelloWorldScene.h">
-      <Filter>src</Filter>
+    <ClInclude Include="..\Classes\00009901000301-Code_Cocos2dx_Sample\Global\Define\KDefine+Global.h">
+      <Filter>src\00009901000301-Code_Cocos2dx_Sample\Global\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\00009901000301-Code_Cocos2dx_Sample\Scene_Sample\CManager_SampleScene.h">
+      <Filter>src\00009901000301-Code_Cocos2dx_Sample\Scene_Sample</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
